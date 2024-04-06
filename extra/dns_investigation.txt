@@ -1,0 +1,112 @@
+DNS:
+
+whois 45.157.188.28
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://apps.db.ripe.net/docs/HTML-Terms-And-Conditions
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '45.157.188.0 - 45.157.188.127'
+
+% Abuse contact for '45.157.188.0 - 45.157.188.127' is 'abuse@infomaniak.ch'
+
+inetnum:        45.157.188.0 - 45.157.188.127
+netname:        INFOMANIAK-HOSTING
+country:        CH
+admin-c:        INSA-RIPE
+tech-c:         INSA-RIPE
+status:         ASSIGNED PA
+mnt-by:         MNT-INSA
+created:        2020-06-02T15:38:23Z
+last-modified:  2022-06-01T10:45:18Z
+source:         RIPE
+
+role:           Infomaniak Network SA
+org:            ORG-INS5-RIPE
+address:        Infomaniak Network SA 25 Rue Eugene-Marziano CH-1227 Les Acacias SWITZERLAND
+abuse-mailbox:  abuse@infomaniak.ch
+tech-c:         LR-RIPE
+tech-c:         EL27881-RIPE
+tech-c:         FC16095-RIPE
+nic-hdl:        INSA-RIPE
+mnt-by:         MNT-INSA
+created:        2006-02-16T13:54:46Z
+last-modified:  2019-02-06T12:37:54Z
+source:         RIPE # Filtered
+
+% Information related to '45.157.188.0/24AS29222'
+
+route:          45.157.188.0/24
+origin:         AS29222
+mnt-by:         MNT-INSA
+created:        2019-10-07T15:45:14Z
+last-modified:  2019-10-07T15:45:14Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.111 (DEXTER)
+
+
+================================================
+nslookup 45.157.188.28
+28.188.157.45.in-addr.arpa	name = vip18-reverse-proxy.infomaniak.ch.
+Authoritative answers can be found from:
+
+
+================================================
+
+dig -x 45.157.188.28 +trace
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> -x 45.157.188.28 +trace
+;; global options: +cmd
+.			448486	IN	NS	l.root-servers.net.
+.			448486	IN	NS	d.root-servers.net.
+.			448486	IN	NS	k.root-servers.net.
+.			448486	IN	NS	e.root-servers.net.
+.			448486	IN	NS	c.root-servers.net.
+.			448486	IN	NS	m.root-servers.net.
+.			448486	IN	NS	f.root-servers.net.
+.			448486	IN	NS	h.root-servers.net.
+.			448486	IN	NS	i.root-servers.net.
+.			448486	IN	NS	g.root-servers.net.
+.			448486	IN	NS	b.root-servers.net.
+.			448486	IN	NS	a.root-servers.net.
+.			448486	IN	NS	j.root-servers.net.
+;; Received 503 bytes from 127.0.0.53#53(127.0.0.53) in 12 ms
+
+in-addr.arpa.		172800	IN	NS	a.in-addr-servers.arpa.
+in-addr.arpa.		172800	IN	NS	b.in-addr-servers.arpa.
+in-addr.arpa.		172800	IN	NS	c.in-addr-servers.arpa.
+in-addr.arpa.		172800	IN	NS	d.in-addr-servers.arpa.
+in-addr.arpa.		172800	IN	NS	e.in-addr-servers.arpa.
+in-addr.arpa.		172800	IN	NS	f.in-addr-servers.arpa.
+in-addr.arpa.		86400	IN	DS	54956 8 2 E0E2BF5CFBD66572CA05EC18267D91509BA6A9405AF05C3FD4141DFA 45200C08
+in-addr.arpa.		86400	IN	DS	47054 8 2 5CAFCCEC201D1933B4C9F6A9C8F51E51F3B39979058AC21B8DF1B1F2 81CBC6F2
+in-addr.arpa.		86400	IN	DS	53696 8 2 13E5501C56B20394DA921B51412D48B7089C5EB6957A7C58553C4D4D 424F04DF
+in-addr.arpa.		86400	IN	DS	63982 8 2 AAF4FB5D213EF25AE44679032EBE3514C487D7ABD99D7F5FEC3383D0 30733C73
+in-addr.arpa.		86400	IN	RRSIG	DS 8 2 86400 20240417180000 20240404170000 43060 arpa. I2XWHBimK8ng/5WWCOTwaxyKVvsv3sdZnYoWHVIl9bpQLC657q+xisHR v8pCgV1ZyxssG3j8O6jSMTL677pfyi3DVLEX3Q2xkNHn+DXpyS93CYJo XSR8r6Ld3ecUG/rd8+3vUC4nrFsTGpOpC68uszXySztI5g9+aNBaYp7q 62g6iWXXVUwXW52LPbp5UPQWLSqi9MNDCjy/NaJvpZGl/7RhVa1FuTCp m381hfYbvFNi5QsdRbEUaEAloMD2N7Y3obh5YY26XaWUVrOR61xcJtWl tAkTrev2uM6nqGy4ec7wAvqWPpL7O2oqCy7bBNWodue09Y9y4R/heQeK 2BkU9w==
+;; Received 959 bytes from 192.33.4.12#53(c.root-servers.net) in 20 ms
+
+45.in-addr.arpa.	86400	IN	NS	y.arin.net.
+45.in-addr.arpa.	86400	IN	NS	u.arin.net.
+45.in-addr.arpa.	86400	IN	NS	arin.authdns.ripe.net.
+45.in-addr.arpa.	86400	IN	NS	r.arin.net.
+45.in-addr.arpa.	86400	IN	NS	x.arin.net.
+45.in-addr.arpa.	86400	IN	NS	z.arin.net.
+45.in-addr.arpa.	86400	IN	DS	2890 8 2 DDB1CE2546EF44A477DF5960D520D837740B67C8A96EFF98C6B33473 DBED0D6E
+45.in-addr.arpa.	86400	IN	RRSIG	DS 8 3 86400 20240416125121 20240326022937 49518 in-addr.arpa. OGzKMIHcqhExgf1a9UIttj5dopp0dKkthIMKA+6ioO8HeUJ3CbWLDE57 0y5YkAHcd8Qoe0PmifN3bhWPmNyG0W/U7xTnCIljLBV76IrMHgh/Vbgc nefXJJB8SyIFIcNE0wq2I2gzK4sRmspqnLIfVTYkR6gyRYdiTdHrSTRk 4n0=
+;; Received 441 bytes from 2001:dd8:6::101#53(e.in-addr-servers.arpa) in 300 ms
+
+188.157.45.in-addr.arpa. 86400	IN	NS	ns2.infomaniak.ch.
+188.157.45.in-addr.arpa. 86400	IN	NS	ns1.infomaniak.ch.
+188.157.45.in-addr.arpa. 10800	IN	NSEC	189.157.45.in-addr.arpa. NS RRSIG NSEC
+188.157.45.in-addr.arpa. 10800	IN	RRSIG	NSEC 8 5 10800 20240418205740 20240404195740 53118 45.in-addr.arpa. NTuQ2O3MsCRYtHVpld2RLuE06IDJrK72XitUI2wY2HYM0z1gLl6yFPnr M7ilbvAgT7kitBI6ft/FH0yOXgXUKLPyiAN+sI7pdj+wDCTr1Wn2ZCnw 3a0wXxYMLrEaLcWPJ3StRygorrdyf0YRSFm6eTSvM6j+XxTnHUFpYh+z Vsk=
+;; Received 352 bytes from 2001:500:f0::63#53(r.arin.net) in 168 ms
+
+28.188.157.45.in-addr.arpa. 86400 IN	PTR	vip18-reverse-proxy.infomaniak.ch.
+188.157.45.in-addr.arpa. 86400	IN	NS	ns2.infomaniak.ch.
+188.157.45.in-addr.arpa. 86400	IN	NS	ns1.infomaniak.ch.
+;; Received 662 bytes from 2001:1600:0:aaaa::b#53(ns2.infomaniak.ch) in 24 ms

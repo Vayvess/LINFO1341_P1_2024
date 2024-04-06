@@ -1,0 +1,168 @@
+('185.125.25.102', '192.168.0.10', '443', '36566', 'TCP') 
+timer: 0
+pkt ammount: 3
+exchange size: 409
+('192.168.0.10', '185.125.25.102', '36566', '443', 'TCP') 
+timer: 1
+pkt ammount: 4
+exchange size: 184
+('127.0.0.1', '127.0.0.53', '20489', '53', 'UDP') 
+timer: 2
+pkt ammount: 1
+exchange size: 67
+('127.0.0.1', '127.0.0.53', '1991', '53', 'UDP') 
+timer: 3
+pkt ammount: 1
+exchange size: 67
+('127.0.0.1', '127.0.0.53', '24723', '53', 'UDP') 
+timer: 4
+pkt ammount: 1
+exchange size: 67
+('127.0.0.53', '127.0.0.1', '53', '1991', 'UDP') 
+timer: 5
+pkt ammount: 1
+exchange size: 220
+('127.0.0.53', '127.0.0.1', '53', '20489', 'UDP') 
+timer: 6
+pkt ammount: 1
+exchange size: 131
+('192.168.0.10', '45.157.188.28', '44632', '443', 'TCP') 
+timer: 7
+pkt ammount: 2129
+exchange size: 2921830
+('127.0.0.53', '127.0.0.1', '53', '24723', 'UDP') 
+timer: 8
+pkt ammount: 1
+exchange size: 131
+('127.0.0.1', '127.0.0.53', None, None, 'IP') 
+timer: 9
+pkt ammount: 1
+exchange size: 159
+('45.157.188.28', '192.168.0.10', '443', '44632', 'TCP') 
+timer: 10
+pkt ammount: 1262
+exchange size: 78819
+('127.0.0.1', '127.0.0.53', '36378', '53', 'UDP') 
+timer: 11
+pkt ammount: 2
+exchange size: 164
+('127.0.0.53', '127.0.0.1', '53', '36378', 'UDP') 
+timer: 12
+pkt ammount: 2
+exchange size: 244
+('192.168.0.10', '45.157.188.28', '44642', '443', 'TCP') 
+timer: 13
+pkt ammount: 14
+exchange size: 1550
+('45.157.188.28', '192.168.0.10', '443', '44642', 'TCP') 
+timer: 14
+pkt ammount: 10
+exchange size: 6519
+('127.0.0.1', '127.0.0.53', '53018', '53', 'UDP') 
+timer: 15
+pkt ammount: 2
+exchange size: 170
+('127.0.0.53', '127.0.0.1', '53', '53018', 'UDP') 
+timer: 16
+pkt ammount: 2
+exchange size: 467
+('192.168.0.10', '185.125.25.102', '35106', '443', 'TCP') 
+timer: 17
+pkt ammount: 12
+exchange size: 1943
+('185.125.25.102', '192.168.0.10', '443', '35106', 'TCP') 
+timer: 18
+pkt ammount: 13
+exchange size: 4134
+('127.0.0.1', '127.0.0.1', '36091', '46014', 'TCP') 
+timer: 19
+pkt ammount: 6
+exchange size: 1092
+('127.0.0.1', '127.0.0.1', '46014', '36091', 'TCP') 
+timer: 20
+pkt ammount: 6
+exchange size: 312
+('127.0.0.1', '127.0.0.53', '57583', '53', 'UDP') 
+timer: 21
+pkt ammount: 2
+exchange size: 164
+('127.0.0.53', '127.0.0.1', '53', '57583', 'UDP') 
+timer: 22
+pkt ammount: 2
+exchange size: 244
+('192.168.0.10', '45.157.188.28', '50484', '443', 'TCP') 
+timer: 23
+pkt ammount: 15
+exchange size: 1530
+('45.157.188.28', '192.168.0.10', '443', '50484', 'TCP') 
+timer: 24
+pkt ammount: 13
+exchange size: 7127
+('127.0.0.1', '127.0.0.53', '54928', '53', 'UDP') 
+timer: 25
+pkt ammount: 2
+exchange size: 190
+('127.0.0.53', '127.0.0.1', '53', '54928', 'UDP') 
+timer: 26
+pkt ammount: 2
+exchange size: 350
+('192.168.0.10', '185.125.25.102', '35112', '443', 'TCP') 
+timer: 27
+pkt ammount: 789
+exchange size: 36947
+('185.125.25.102', '192.168.0.10', '443', '35112', 'TCP') 
+timer: 28
+pkt ammount: 1948
+exchange size: 2907280
+('127.0.0.1', '127.0.0.53', '45705', '53', 'UDP') 
+timer: 29
+pkt ammount: 2
+exchange size: 164
+('127.0.0.53', '127.0.0.1', '53', '45705', 'UDP') 
+timer: 30
+pkt ammount: 2
+exchange size: 244
+('192.168.0.10', '45.157.188.28', '50490', '443', 'TCP') 
+timer: 31
+pkt ammount: 14
+exchange size: 1550
+('45.157.188.28', '192.168.0.10', '443', '50490', 'TCP') 
+timer: 32
+pkt ammount: 10
+exchange size: 6331
+('127.0.0.1', '127.0.0.53', '38966', '53', 'UDP') 
+timer: 33
+pkt ammount: 2
+exchange size: 170
+('127.0.0.53', '127.0.0.1', '53', '38966', 'UDP') 
+timer: 34
+pkt ammount: 2
+exchange size: 467
+('192.168.0.10', '185.125.25.102', '35124', '443', 'TCP') 
+timer: 35
+pkt ammount: 11
+exchange size: 1903
+('185.125.25.102', '192.168.0.10', '443', '35124', 'TCP') 
+timer: 36
+pkt ammount: 13
+exchange size: 3952
+('192.168.0.1', '224.0.0.1', None, None, 'IP') 
+timer: 37
+pkt ammount: 2
+exchange size: 92
+('192.168.0.10', '224.0.0.251', None, None, 'IP') 
+timer: 38
+pkt ammount: 1
+exchange size: 32
+('192.168.0.10', '239.255.255.250', '57587', '1900', 'UDP') 
+timer: 39
+pkt ammount: 4
+exchange size: 800
+('192.168.0.10', '91.189.91.96', '54434', '80', 'TCP') 
+timer: 40
+pkt ammount: 6
+exchange size: 407
+('91.189.91.96', '192.168.0.10', '80', '54434', 'TCP') 
+timer: 41
+pkt ammount: 4
+exchange size: 401
